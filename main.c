@@ -8,14 +8,12 @@ int main()
 {
 
     int arr1[MAX];
-    int arr2[MAX];
     int i, n;
     int increasing = 0;
     int decreasing = 0;
 
-    printf("Insert the contents in arr1:\n");
+    printf("Insert the number of elements in the array:\n");
     scanf("%d", &n);
-    printf("Insert the contents in arr2:\n");
 
     for (i = 0; i < n; i++)
     {
